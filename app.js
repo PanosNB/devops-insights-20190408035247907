@@ -6,7 +6,7 @@ var apiv1 = require('./routes/apiv1.js');
 var EJS = require('ejs');
 
 EJS.open = "<ejs>";
-EJS.close = "</ejs>";
+EJS.close = "</ejs>;
 
 var host = process.env.PORT ? '0.0.0.0' : 'localhost';
 var port = (process.env.PORT || 3456);
